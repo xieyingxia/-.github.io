@@ -18,30 +18,32 @@ export default class indexPageCenter extends React.Component{
                     infinite="true"
                     id="size"
                   >
-                    <a
-                        style={{ display: 'inline-block', width: '100%',  }}
+                    <a href="/"
+                        style={{ display: 'inline-block', width: '100%',  }} 
                     >
                         <img
                         src={thumb1}
-                        alt=""
+                        alt="thumb1"
                         style={{ width: '100%', verticalAlign: 'top',height:'667px'}}
                         />
                     </a>
-                    <a
+                    <a href="/"
                        
                         style={{ display: 'inline-block', width: '100%',}}
                     >
                         <img
                         src={thumb2}
+                        alt="thumb2"
                         style={{ width: '100%', verticalAlign: 'top',height:'667px' }}
                         />
                     </a>
-                    <a
+                    <a href="/"
                         style={{ display: 'inline-block', width: '100%',height:'667px' }}
                     >
                         <img
                         src={thumb3}
                         alt="thumb3"
+                        
                         style={{ width: '100%', verticalAlign: 'top' }}
                         />
                     </a>

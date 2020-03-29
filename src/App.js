@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from "react-router-dom"
-import intl from 'react-intl-universal'
+// import intl from 'react-intl-universal'
 import IndexPageHeader from '../src/pages/indexPage/indexPageHeader'
 import AppRouter from './router/AppRouter'
 class App extends React.Component {
@@ -22,6 +22,7 @@ class App extends React.Component {
                                 )}
                                 />
                             )
+                            
                         }else{
                             return (
                                 <Route
@@ -34,8 +35,8 @@ class App extends React.Component {
                             )
                         }
                     }
-                  })   
-                }
+                  return item})   
+            }
         </Router> 
      
         )

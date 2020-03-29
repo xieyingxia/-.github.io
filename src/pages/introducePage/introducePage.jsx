@@ -10,22 +10,56 @@ class introducePage extends React.Component{
     render(){
         return(
             <div id="introducePage">
-                {/* biaoti */}
+            
                  <div className="grounpPageTitle">
                  {intl.get('editor.item.headerTitleTh')}
                  </div>
                  {/* 图片 */}
                  <div className="grounpPageImg">
                     <img src={thumb1} alt=""/>
-                    <div>{intl.get('editor.item.headerTitleO')}</div>
+                    {/* <div>{intl.get('editor.item.headerTitleO')}</div> */}
                 </div> 
                 {/* 内容 */}
-                <div className="grounpPagecontent">
-                    <div>
-                    {intl.get('editor.item.third_1')}
-                    <br/><span>{intl.get('editor.item.third_2')}</span>
+                <div className="intelligenceCenter">
+                    <div className="wrap">
+                        <div className="leftI">
+                          
+                        </div>
+                        <div className="rightI">
+                            <div className="fistR">
+                                <h2> 	广告业务</h2>
+
+
+                                <span className="spanLeft">我们拥有专业的策划以及拍摄、剪辑团队，以客户的需求为出发点，量身定制符合客户需要与他国国情的产品，从互联网、实体等多方面入手，实现客户商品的最大曝光度。</span><span className="spanRight"></span>
+                            </div>
+                            <div>
+                                <h2> 	情报支援</h2>
+                             
+                                <span className="spanLeft">
+                                情报支援：本社将以客户项目至今为止的数据为蓝本，辅以自己的数据库作为支援，协助客户构建更加健康的项目模型。
+                          </span><span className="spanRight"></span>
+                            </div>
+                            <div>
+                                <h2> 	项目运营支援</h2>
+                                <span className="spanLeft">本社以经验丰富的顾问为本，为客户从项目立案到项目实现等运营过程，提供专业化的支援和帮助，协助客户少走弯路，完成项目的“从无到有”。
+                               </span><span className="spanRight">
+
+                                </span>
+                                
+                            </div>
+                            <div>
+                                <span className="bottomSpanLoca"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+              
+                    
+                   
+
+                    {/* <br/><span>{intl.get('editor.item.third_2')}</span> */}
+        
+
                 {/* 图片 */}
                 <div className="introducePageImg">
                     <div>

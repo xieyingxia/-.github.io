@@ -1,5 +1,5 @@
 import React from "react"
-import intl from 'react-intl-universal'
+// import intl from 'react-intl-universal'
 import { Tabs } from 'antd-mobile';
 import './index.less'
 const tabs = [

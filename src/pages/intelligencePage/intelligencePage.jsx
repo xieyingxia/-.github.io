@@ -19,44 +19,54 @@ class intelligencePage extends React.Component{
                 <div className="grounpPageImg">
                     <img src={thumb1} alt=""/>
                     <div>
-                    {intl.get('editor.item.headerTitleO')}
+                    
                     </div>
                 </div> 
                 {/* 中心 */}
-                <div className="intelligencePageCenter">
-                    <div className="firstCenter">
+                {/* <div className="intelligencePageCenter">
+                    {/* <div className="firstCenter">
                         <h3> {intl.get('editor.item.second_1')}</h3>
                         <span>{intl.get('editor.item.second_2')}</span><br/>
                         <span>{intl.get('editor.item.second_1')}</span>
-                    </div>
-                    <div className="secondCenter">
-                            <img src="https://www.stockweather.co.jp/customize_real/9684/img/9684j_02.png" alt=""/>
-                    </div>
-                    <div className="thirdCenter">
+                    </div> */}
+                    {/* <div className="secondCenter">
+                            <img src="" alt=""/>
+                    </div> */}
+                    {/* <div className="thirdCenter">
                        <div>{intl.get('editor.item.second_1')}</div>
-                    </div>
-                </div>
+                    </div> */}
+              
                 {/* 中下     */}
                 <div className="intelligenceCenter">
                     <div className="wrap">
                         <div className="leftI">
-                            <h2>{intl.get('editor.item.second_3')}</h2>
+                          
                         </div>
                         <div className="rightI">
                             <div className="fistR">
-                                <h2>2020.02.26</h2>
-                                <span className="spanLeft">{intl.get('editor.item.second_4')}</span><span className="spanRight">887k</span>
+                                <h2> 	广告业务</h2>
+
+
+                                <span className="spanLeft">我们拥有专业的策划以及拍摄、剪辑团队，以客户的需求为出发点，量身定制符合客户需要与他国国情的产品，从互联网、实体等多方面入手，实现客户商品的最大曝光度。</span><span className="spanRight"></span>
                             </div>
                             <div>
-                                <h2>2020.02.26</h2>
-                                <span className="spanLeft">{intl.get('editor.item.second_4')}</span><span className="spanRight">887k</span>
+                                <h2> 	Hologon image摄影工作室</h2>
+                             
+                                <span className="spanLeft">
+                                Hologon image摄影工作室：Hologon image摄影工作室由数位技艺高超的摄影师组成，每一位摄影师都拥有丰富的艺术摄影经验和商业摄影经验，摄影师和文案、编辑相互配合，能够充分满足客户在艺术摄影与商业摄影上的一切需求。
+
+                          </span><span className="spanRight"></span>
                             </div>
                             <div>
-                                <h2>2020.02.26</h2>
-                                <span className="spanLeft">{intl.get('editor.item.second_4')}</span><span className="spanRight">887k</span>
+                                <h2> 	飞鸟Tabi</h2>
+                      
+                                <span className="spanLeft">飞鸟Tabi：飞鸟Tabi是以分享海外见闻、旅游心得的一档网络节目。通过bilibili、抖音、Youtube等各大流量网络平台，以诙谐有趣的方式展示客户产品的优秀之处，将我们的企业文化和专业素养充分溶于视频之中，让每一位客户都能更好的认识我们、了解我们、信任我们。</span><span className="spanRight">
+
+                                </span>
+                                
                             </div>
                             <div>
-                                <span className="bottomSpanLoca">{intl.get('editor.item.second_1')}</span>
+                                <span className="bottomSpanLoca"></span>
                             </div>
                         </div>
                     </div>

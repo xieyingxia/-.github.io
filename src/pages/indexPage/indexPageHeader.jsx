@@ -25,13 +25,14 @@ class indexPageHeader extends React.Component{
                 </div>
                 <div className="rightWrap">
                     <div className="rightWrapTop">
-                        <span onClick={this.handleLanguage.bind(this)}>
+                        <span  className="rightWrapTop1" onClick={this.handleLanguage.bind(this)}>
                           Janpan/English
                          </span>&nbsp;&nbsp;&nbsp;&nbsp;<span>|</span>&nbsp;&nbsp;&nbsp;&nbsp;
                         <img src={serch} alt="" />
                     </div>
                     <div className="rightWrapBottom">
                         <div></div>
+                        
                         <div className="dropdown">
                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
@@ -200,3 +201,4 @@ Object.assign(indexPageHeader.prototype, {
     }
    })
   export default withRouter(indexPageHeader)
+
